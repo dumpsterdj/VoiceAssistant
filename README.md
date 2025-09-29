@@ -120,7 +120,4 @@ Contributions welcome!
 
 MIT License © 2025 dumpsterdj
 See [LICENSE](LICENSE) for details.
-
-
-Do you also want me to **add some demo GIFs/screenshots** section placeholders in the README so it looks even more polished for GitHub?
 ```
