@@ -1,0 +1,25 @@
+# core assistant & NLP
+SpeechRecognition>=3.8.1
+pyttsx3>=2.90
+rapidfuzz>=2.13.7
+requests>=2.31.0
+
+# youtube download/search
+#yt-dlp>=2024.10.19
+
+# audio / voice auth / recording
+sounddevice>=0.4.8
+soundfile>=0.12.1
+numpy>=1.26.0
+webrtcvad>=2.0.10
+
+# optional: speaker verification (Resemblyzer)
+resemblyzer>=0.1.1
+
+# optional: voice embedding dependencies (audio ML)
+# NOTE: install torch separately following https://pytorch.org/ to pick CUDA vs CPU build
+# torch>=2.2.0
+
+# Optional: if you prefer PyAudio (used by SpeechRecognition.Microphone)
+# Use pipwin or a wheel on Windows; this line may fail to build on some systems:
+PyAudio>=0.2.11
